@@ -16,8 +16,47 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
-
+ -1.14-windows.xml
+'3D Objects'/
+ AppData/
+'Application Data'@
+ BrawlhallaReplays/
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+'Creative Cloud Files theamazinghoodini8294@gmail.com b6703650ad6dcfc97b3253e7bfa9bfa6066070d3e484feef33b0913b0732d995'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Intel/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{02b3661e-e7c4-11ec-b406-8c1d96dac7d4}.TM.blf
+ NTUSER.DAT{02b3661e-e7c4-11ec-b406-8c1d96dac7d4}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{02b3661e-e7c4-11ec-b406-8c1d96dac7d4}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Twitch/
+ Videos/
+ Zomboid/
+ ansel/
+ curseforge/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
 
 ==========
 2a. Type: 
@@ -28,17 +67,16 @@ What happens?  Describe it below.
 ----------
 Desktop/    Documents/  Downloads/
 
-
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-rdrgeerwtger yg erwy brg
+Desktop/    Documents/  Downloads/
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: cannot access 'D': No such file or directory
 
 
 ==========
@@ -48,6 +86,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
+20200317_161206.jpg
+4125126.aseprite
 
 
 
@@ -58,7 +98,7 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+./ ../
 
 
 ==========
@@ -68,7 +108,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+$ ls -a Documents
 
 
 ==========
@@ -78,7 +118,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+$ls -a Documents
 
 
 ==========
@@ -88,7 +128,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+It autofinished it to /bin
 
 
 ==========
@@ -98,31 +138,31 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+The UP key
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
-
+$ls -a Documents
+$ ls -l Documents<ENTER>
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+TAB
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls List command
 
 
 ==========
@@ -138,7 +178,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+bash: foo: command not found
 
 
 ==========
@@ -148,7 +188,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+bash: foo: command not found
 
 
 ==========
@@ -158,3 +198,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+ls is the command, flag is the -a, argument is the Desktop, prompt is the $
